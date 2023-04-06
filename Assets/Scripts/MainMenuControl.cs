@@ -76,6 +76,10 @@ public class MainMenuControl : MonoBehaviour
 
     }
 
+    public void returnBack()
+    {
+        SceneManager.LoadScene(0);
+    }
   
 
     

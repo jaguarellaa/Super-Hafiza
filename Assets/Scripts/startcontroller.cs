@@ -16,4 +16,9 @@ public class startcontroller : MonoBehaviour
     {
         PlayerPrefs.DeleteAll();
     }
+
+    public void AppExit()
+    {
+        Application.Quit();
+    }
 }
